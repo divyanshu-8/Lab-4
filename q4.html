@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Lab4</title>
+</head>
+<body>
+    <h1>javascript</h1>
+    <button onclick="changeThisPageFun();">Click Me</button>
+    <main>
+        <h2>this is lab task 4</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod delectus ipsa sit dicta aliquam facilis similique molestias beatae assumenda tenetur, laborum, est repellat!
+        </p>
+    </main>
+    <script type="text/javascript">
+        changeThisPageFun= function(){
+            var myMain;
+            document.body.style.backgroundColor="#089778";
+            myMain= document.querySelector('main');
+            myMain.innerHTML="<h1> This Lab is coloured </h1>";
+            myMain.style.backgroundColor="#7a06ff";
+        }
+    
+    </script>
+    
+</body>
+</html>
