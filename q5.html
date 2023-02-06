@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+    <style>
+        .myclass{
+            color:papayawhip;
+        }
+    </style>
+</head>
+<body>
+    <main >
+        <div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, non quis. Exercitationem beatae amet odio quae impedit sit autem fugit asperiores, laudantium fugiat?</p>
+        </div>
+        <button onclick="Changeme();"> click me!!</button>
+    </main>
+    <article >
+      
+        <h1 id="rem">We have just completed our CSS tutorial course</h1>
+    </article>
+
+    <script>
+        Changeme = function(){
+            var myMain = document.querySelector('h1');
+            myMain.style.color = "orange";
+            document.body.className = "myclass";
+            document.getElementById("rem").style.color = "pink";
+
+        }
+    </script>
+</body>
+</html>
