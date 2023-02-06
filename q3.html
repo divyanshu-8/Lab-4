@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>anurag</title>
+    <style>
+        .CLASS{
+            color: rgb(215, 94, 114);
+        }
+    </style>
+</head>
+<body>
+    <h1>javascript</h1>
+    <button onclick="changeThisPageFun();">Click Me</button>
+    <script type="text/javascript">
+        changeThisPageFun= function(){
+            alert("body has class="+document.body.className);
+            document.body.className="CLASS";
+            alert("body has class="+document.body.className);
+            document.body.innerHTML="<h1> My nane is Anurag </h1>";
+        }
+    
+    </script>
+    
+</body>
+</html>
